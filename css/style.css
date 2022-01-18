@@ -16,7 +16,8 @@ h1 {
 }
 
 h2 { 
-  color: brown
+  color: brown;
+  font-size: 30px;
 }
 
 p { 
@@ -51,8 +52,19 @@ img {
 }
 
 .myButton {
-  color: rgb(255, 255, 255); font-size: 13px; line-height: 13px; padding: 6px; border-radius: 7px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0.27) 6px -5px 9px 0px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+  
+  color: rgb(255, 255, 255); font-size: 13px; line-height: 13px; padding: 20px;
+   border-radius: 70px; font-family: Georgia, serif; font-weight: normal; text-decoration: none;
+    font-style: normal; font-variant: normal; text-transform: none; 
+    background-image: linear-gradient(to right, rgba(245, 14, 234, 0.274) 0%, rgba(255, 153, 0, 0.274) 100%); 
+     box-shadow: rgba(218, 255, 9, 0.27) 6px -5px 9px 0px; border: 2px solid rgb(0, 0, 0); 
+     display: inline-block;}
   .myButton:hover {
-  background: #1C6EA4; }
+  background: #b3d2e7; }
   .myButton:active {
-  background: #144E75; }
+  background: #f3ad7f; }
+
+#link {
+  text-align: center;
+  display: block;
+}
