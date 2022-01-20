@@ -1,18 +1,149 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+
+  body {
+    display: flex;
+    flex-direction: column;
+  margin: 0;
+}
+
+header, footer {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+
+}
+section {
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+
+}
+
+.flexContainer {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+
+  background-color: rgb(247, 238, 238);
+}
+
+.sidetext {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+
+</style>
+
+<body>
+<header>
+  <h1>Flex Box Examples </h1>
+</header>
+
+<section>
+  <div class="flexContainer">
+    <div class="sidetext"
+   
+    <p>side 1</p>
+    <p>side 2</p>
+   <p>side 3</p>
+   <p>side 4</p>
+
+  </div>
+</div>
+
+    <div>
+  <article>
+    <h2>What is HTML?</h2>
+    <p>
+      Hypertext Markup Language (HTML) is the standard markup language for 
+      documents that are designed to be displayed in a web browser. HTML is not a programming language. 
+      It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of elements such as a piece of text, a pragraph, 
+       list, table, links or forms.
+    </p>
+  </article>
+
+
+  <article>
+    <h2>HTML Elements</h2>
+
+    <p>
+      As in the above example, html document consists of a tree of elements and text. 
+      Each element starts with a tag and ends with a tag.
+       Tags have to be nested such that they are completely within each other without overlapping .
+    </p>
+  </article>
+
+  <article>
+    <h2>Block Level Elements</h2>
+
+    <p>
+      Block-level elements form a visible block on a page. A block-level element appears on a new line 
+      following the content that precedes it. Any content that follows a block-level element also 
+      appears on a new line. Block-level elements are usually structural elements on the page.
+       For example, a block-level element might represent headings, paragraphs, lists, navigation 
+       menus, or footers. A block-level element wouldn't 
+      be nested inside an inline element, but it might be nested inside another block-level element.
+    </p>
+  </article>
+</div>
+</section> 
+<footer>
+  <h1>Learning Flex @ 2022</h1>
+</footer>
+</body>
+
+
+
+
+<body>
+  
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Float Example</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-   <style>
+
+
+<style>
        body {
   width: 100%;
   margin: 0 auto;
   font: .9em/1.2 Arial, Helvetica, sans-serif
 } 
+
 .box {
-margin-top: 25px;
+
+  margin-top: auto;
   display: flex;
   float: left;
   margin-left: 0px;
@@ -20,7 +151,7 @@ margin-top: 25px;
   width: 150px;
   min-height: auto;
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
+  
   padding: 1em;
 } 
 
@@ -51,14 +182,25 @@ background-color: rgba(3, 3, 3, 0.336);
 </head>
 <body>
     
-   <div class="box">LEFTBAR</div>
+ 
 
 <header>
   <h1 style="text-align: center;">FLEX BOX </h1>
 </header> 
-            
+
+<div>
+<div class="box">
+  <p>hefösakjföaskjfaöslkfj</p>
+  <br>
+  <p>jeöslkjaöslekjfaslöefjk</p>
+  <br>
+  <p>jeöslkjaöslekjfaslöefjk</p>
+  <br>
+  <p>jeöslkjaöslekjfaslöefjk</p>
+</div>
+
 <section>
-        
+ 
   <article>
     <h1>What is HTML?</h1>
     <p>
@@ -91,6 +233,7 @@ background-color: rgba(3, 3, 3, 0.336);
       be nested inside an inline element, but it might be nested inside another block-level element.
     </p>
   </article>
+</div>
 </section>
 <footer>
   <H1 style="text-align: center;">BUAAAAAH</H1>
@@ -192,4 +335,4 @@ background-color: rgba(3, 3, 3, 0.336);
       <h1>Learning Flex @ 2022</h1>
   </footer>
 
-</body></html> -->
+</body></html> --> -->
