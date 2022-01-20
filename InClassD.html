@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .flexboxContainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+    }
+    .flexboxContainer > div, div {
+        background-color: rosybrown;
+        font-size: 16px;
+
+    }
+header, footer  {
+    background-color: rgb(182, 243, 182);
+    min-height: 70px;
+}
+.leftbar, .rightbar {
+    background-color: black;
+    min-height: 300px;
+    width: 20%;
+}
+
+.main {
+    background-color: red;
+    min-height: 400px;
+    width: 60%;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+   This is going to be header
+</header>
+
+    <div class="flexboxContainer">
+    
+    <div class="leftbar">Division 1
+    <p> LEFT BAR</p>
+    </div>
+
+
+
+    <div class="main">Division 2
+        <p>Hello world2</p>
+        </div>
+
+    <div class="rightbar">Division 3
+        <h1>Otsikko</h1>
+    </div>
+    </div>
+    
+
+    <footer> This is footer</footer>
+</body>
+</html>
