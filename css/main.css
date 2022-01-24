@@ -1,6 +1,26 @@
 body {
     background-color: burlywood;
+    padding-bottom: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+
+        min-height: 100vh;
+        position: relative;
+        margin: 0;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+
+
 }
+#wrap {
+    min-height: 100%;
+  }
+  
+  #main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+  }
 
 navbar navbar-expand-lg navbar-light bg-light
 {
@@ -8,9 +28,16 @@ navbar navbar-expand-lg navbar-light bg-light
 }
 
 div  {
-    background-color: rgb(95, 121, 235);
+    background-color: rgb(161, 170, 214);
 }
 .vari {
    color: rgba(1, 248, 153, 0.904)123);
    background-color: green;
+}
+footer {
+
+    position: absolute;;
+  bottom: 0;
+  height: 100px;
+  
 }
